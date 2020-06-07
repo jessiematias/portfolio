@@ -2,9 +2,17 @@ import styled from "styled-components";
 import { makeStyles } from '@material-ui/core/styles';
 import { colors } from "../../global";
 
-export const FormContainer = styled.form`
-margin: 13rem auto;
-width: 50%;
+export const Thanks = styled.p`
+font-family: 'menloregular';
+font-size: 3rem;
+color: ${colors.red};
+text-align: center;
+margin: 3rem 0;
+`
+
+export const FormContainer = styled.div`
+margin: 13rem auto 0 auto;
+width: 55%;
 `
 export const SubmitButton = styled.button`
 font-family: 'menloregular';
@@ -30,6 +38,7 @@ background-color: transparent;
 
 export const FormTitle = styled.h1`
 font-family: 'menloregular';
+font-size: 3.5rem;
 color: ${colors.grey};
 margin-bottom: 2rem;
 font-weight: 400;
@@ -37,12 +46,15 @@ font-weight: 400;
 
 export const useStyles = makeStyles({
     name: {
-     width: '47.5%',
+     width: '47.3%',
     },
     rightMargin: {
-        marginRight: '5%'
+        marginRight: '2.7%'
     },
     fontSize: {
         fontSize: '1.3rem'
+    },
+    widthEmailandMessage: {
+        width: '97.6%'
     }
   });

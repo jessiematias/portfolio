@@ -4,7 +4,7 @@ import { Name, NameSubtitle } from './TitleStyles';
 const Title = () => {
     return (
         <>
-        <Name>Jessie Matias
+        <Name>JESSIE MATIAS
         <NameSubtitle>Front-end web developer</NameSubtitle>
         </Name>
         

@@ -18,5 +18,5 @@ height: 6rem;
 position: absolute;
 left: 3rem;
 right: 90%;
-top: 0;
+top: 1rem;
 `

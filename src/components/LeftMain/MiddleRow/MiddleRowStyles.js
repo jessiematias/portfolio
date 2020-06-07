@@ -5,7 +5,7 @@ export const MiddleParagraph = styled.p`
 font-family: 'menloregular';
 color: ${colors.grey};
 font-size: 1.4rem;
-margin: auto 2rem;
+margin: 0 auto 0 2rem;
 `
 export const ItemsCount = styled.span`
 border: .5px solid ${colors.grey};
