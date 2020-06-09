@@ -13,7 +13,9 @@ margin: 3rem 0;
 export const FormContainer = styled.div`
 margin: 13rem auto 0 auto;
 width: 55%;
+height: 75vh;
 `
+
 export const SubmitButton = styled.button`
 font-family: 'menloregular';
 font-weight: 700;

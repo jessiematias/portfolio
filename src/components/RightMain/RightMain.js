@@ -7,4 +7,4 @@ const RightMain = () => {
   )
 }
 
-export default RightMain
+export default RightMain 

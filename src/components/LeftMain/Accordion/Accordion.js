@@ -12,8 +12,8 @@ class Accordion extends Component {
           settings: state.settings.map(item =>
             item.id === id ? { ...item, open: !item.open } : item
           )
-        }));
-      };
+        }))
+      }
 
     render() {
         const { settings } = this.state;

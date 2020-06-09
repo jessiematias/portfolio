@@ -11,7 +11,6 @@ const GlobalStyles = createGlobalStyle`
              url(${require('./fonts/menlo-regular-webfont.svg')}) format('svg');
         font-weight: normal;
         font-style: normal;
-    
     }
 *,
 *::after,
@@ -20,8 +19,6 @@ const GlobalStyles = createGlobalStyle`
   padding: 0;
   box-sizing: border-box;
 }
-
-
 
 html {
   font-size: 62.5%;

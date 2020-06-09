@@ -5,11 +5,11 @@ const Title = () => {
     return (
         <>
         <Name>JESSIE MATIAS
-        <NameSubtitle>Front-end web developer</NameSubtitle>
+        <NameSubtitle>Front End Developer. Now available for you.</NameSubtitle>
         </Name>
         
         </>
     )
 }
 
-export default Title
+export default Title 

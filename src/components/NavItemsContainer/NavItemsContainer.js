@@ -6,7 +6,7 @@ const NavItemsContainer = () => (
         <StyledLink exact to="/">
             <NavItem>
                 HOME
-    </NavItem>
+           </NavItem>
         </StyledLink>
 
         <StyledLink to="/about">
