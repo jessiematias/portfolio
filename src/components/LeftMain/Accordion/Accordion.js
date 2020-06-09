@@ -21,8 +21,8 @@ class Accordion extends Component {
             <>
                 {ITEMS.map(item =>
                     (
-                        <AccordionContainerStyled>
-                            <AccordionItemTitle key={item.id} onClick={() => this.handleClick(item.id)}>
+                        <AccordionContainerStyled key={item.id}>
+                            <AccordionItemTitle  onClick={() => this.handleClick(item.id)}>
                                 <p><span><AiOutlineEye /></span>{item.title}</p> <p>{item.technologies}</p>
                             </AccordionItemTitle>
                             <CollapsableContent open={settings.find(items => items.id === item.id).open}>
