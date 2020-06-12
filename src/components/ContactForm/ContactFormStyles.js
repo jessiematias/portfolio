@@ -14,6 +14,9 @@ export const FormContainer = styled.div`
 margin: 13rem auto 0 auto;
 width: 55%;
 height: 75vh;
+@media only screen and (max-width: 600px) {
+    width: 85%;
+} 
 `
 
 export const SubmitButton = styled.button`
@@ -40,10 +43,13 @@ background-color: transparent;
 
 export const FormTitle = styled.h1`
 font-family: 'menloregular';
-font-size: 3.5rem;
+font-size: 5rem;
 color: ${colors.grey};
 margin-bottom: 2rem;
 font-weight: 400;
+@media only screen and (max-width: 600px) {
+ font-size:4rem;
+}
 `
 
 export const useStyles = makeStyles({

@@ -14,6 +14,11 @@ export const AccordionItemTitle = styled.div`
             margin-right: 1rem;
         }
     }
+
+    @media only screen and (max-width: 600px) {
+    font-size: 1.3rem;
+    margin: 1rem 0;
+} 
 `
 
 export const Links = styled.div`
@@ -23,6 +28,9 @@ a {
     margin-right: 5rem;
     cursor: pointer;
     font-weight: 600;
+    @media only screen and (max-width: 600px) {
+    margin: 0 1em 0 1rem;
+} 
 }
 `
 
@@ -34,6 +42,9 @@ max-height: ${props => (props.open ? "20rem" : "0")};
 padding: ${props => (props.open ? "15px" : "0 15px")};
 overflow: hidden;
 transition: all .2s ease-out;
+@media only screen and (max-width: 600px) {
+    font-size: 1.2rem;
+} 
 `
 
 export const AccordionContainerStyled = styled.div`
@@ -41,4 +52,7 @@ border-bottom: 1px dashed ${colors.grey};
 margin: 0 3rem;
 font-family: 'Times New Roman';
 color: ${colors.grey};
+@media only screen and (max-width: 600px) {
+    margin: 0;
+} 
 `

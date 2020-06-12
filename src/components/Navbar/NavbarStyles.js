@@ -19,4 +19,9 @@ position: absolute;
 left: 3rem;
 right: 90%;
 top: 1rem;
+@media only screen and (max-width: 600px) {
+    height: 5rem;
+    width: 5rem;
+    left: 2rem;
+} 
 `

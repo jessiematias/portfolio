@@ -5,7 +5,7 @@ const ITEMS = [
         description: "Sign-up page with email and password authentication. Waves animation created with CSS's @keyframe.",
         technologies: "SASS, JavaScript",
         liveURL: "https://jessiematias.github.io/signup-page/",
-        codeURL: "/"
+        codeURL: "https://github.com/jessiematias/signup-page"
     },
     {
         id: '2',

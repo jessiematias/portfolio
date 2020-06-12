@@ -1,5 +1,3 @@
-//div > two ps with display flex
-//border bottom on the div
 import styled from "styled-components";
 import { colors } from "../../../global";
 
@@ -14,5 +12,11 @@ font-size: 1.6rem;
 font-weight: 700;
 height: fit-content;
 padding-bottom: 1rem;
-border-bottom: 1px solid ${colors.grey};
+border-bottom: 1px solid ${colors.grey}; 
+
+@media only screen and (max-width: 600px) {
+    font-size: 1.4rem;
+    margin: 0;
+    padding: 0;
+} 
 `

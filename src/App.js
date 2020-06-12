@@ -9,23 +9,26 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import Navbar from './components/Navbar/Navbar';
-import Footer from './Footer/Footer';
 import {useTransition, animated} from 'react-spring'
 import { withRouter } from "react-router";
+import Hamburger from './components/HamburgerMenu/HamburgerMenu';
 
 const App = () => {
 
   const location = useLocation()
 
+  const mq = window.matchMedia( "(min-width: 600px)" )
+
   const transitions = useTransition(location, location => location.pathname, {
-    from: {position:'absolute', width: '100%', opacity: 0, transform: "translate(100%, 0)"},
-    enter: {opacity: 1, transform: "translate(0, 0)"},
-    leave: {opacity: 0, transform: "translate(-50%, 0)"}
+    from: {transform: mq.matches ? "translateX(100%)" : "translateX(0)", position:'absolute', width: '100vw', opacity: 0},
+    enter: {opacity: 1, width: '100vw', transform: "translateX(0)"},
+    leave: {opacity: 0, transform: mq.matches ? "translateX(-50%)" : "translateX(0)"}
   })
 
     return (
         <>
         <GlobalStyles />
+        <Hamburger />
         <Navbar />
         {transitions.map(({ item, props, key }) => (
           <animated.div key={key} style={props}>

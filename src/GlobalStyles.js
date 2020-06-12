@@ -22,7 +22,14 @@ const GlobalStyles = createGlobalStyle`
 
 html {
   font-size: 62.5%;
-}
+} 
 
+body {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
 `
+
 export default GlobalStyles

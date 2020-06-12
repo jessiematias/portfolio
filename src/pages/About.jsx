@@ -1,9 +1,11 @@
 import React from 'react';
+import AboutSection from '../components/About/AboutSection';
 
 const About = () => {
 return (
-    <div>my about</div>
+    <AboutSection/>
 )
+
 }
 
 export default About
