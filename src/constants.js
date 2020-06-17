@@ -2,7 +2,7 @@ const ITEMS = [
     {
         id: '1',
         title: "Plantco",
-        description: "E-commerce site with home page, shop page, and checkout page. Homepage contains testimonials carousel and animation scroll to bottom. Shop page allows add items to cart with hover and click. Cart icon displays popup view on desktop screens with the ability to add, substract and remove. Checkout page also allows substract, add and remove. Cart local storage is managed by Redux's persist. State is managed by Redux. Mobile responsive.",
+        description: "E-commerce site with home page, shop page, and checkout page. Homepage contains testimonials carousel and animation scroll to bottom. Shop page allows add items to cart with hover and click. Cart icon displays popup view on desktop screens with the ability to add, subtract and remove. Checkout page also allows subtract, add and remove. Cart's local storage is managed by Redux's persist. State is managed by Redux. Mobile responsive.",
         technologies: "React, Redux, CSS-in-JS",
         liveURL: "https://jessiematias.github.io/plantco-site/#/",
         codeURL: "https://github.com/jessiematias/plantco-site/tree/master"

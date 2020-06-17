@@ -7,7 +7,7 @@ const Navbar = () => (
   <>
 <Gridcontainer>
  <LogoContainer>
- <NavLink exact to="/">
+ <NavLink exact to={process.env.PUBLIC_URL + '/about'}>
    <LogoImg/>
    </NavLink>
    </LogoContainer>

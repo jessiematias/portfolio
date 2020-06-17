@@ -3,19 +3,19 @@ import { NavItem, ItemsContainer, StyledLink } from './NavItemsContainerStyles';
 
 const NavItemsContainer = () => (
     <ItemsContainer>
-        <StyledLink exact to="/">
+        <StyledLink exact to={process.env.PUBLIC_URL + '/'}>
             <NavItem>
                 HOME
            </NavItem>
         </StyledLink>
 
-        <StyledLink to="/about">
+        <StyledLink to={process.env.PUBLIC_URL + '/about'}>
             <NavItem>
                 ABOUT
     </NavItem>
         </StyledLink>
 
-        <StyledLink to="/contact">
+        <StyledLink to={process.env.PUBLIC_URL + '/contact'}>
             <NavItem>
                 CONTACT
     </NavItem>
