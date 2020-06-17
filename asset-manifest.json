@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/portfolio/static/js/main.63442e3d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.63442e3d.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.fb1b3dac.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.fb1b3dac.js.map",
+    "static/js/2.efbd705d.chunk.js": "/portfolio/static/js/2.efbd705d.chunk.js",
+    "static/js/2.efbd705d.chunk.js.map": "/portfolio/static/js/2.efbd705d.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.b239269c16681eb3702f824085e2b132.js": "/portfolio/precache-manifest.b239269c16681eb3702f824085e2b132.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/js/2.efbd705d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.efbd705d.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/portfolio/static/media/logo.55bc2809.svg",
+    "static/media/menlo-regular-webfont.svg": "/portfolio/static/media/menlo-regular-webfont.0ea489c6.svg",
+    "static/media/menlo-regular-webfont.woff": "/portfolio/static/media/menlo-regular-webfont.92e80a8b.woff",
+    "static/media/menlo-regular-webfont.woff2": "/portfolio/static/media/menlo-regular-webfont.995f11e3.woff2",
+    "static/media/menlo-regular-webfont.eot?#iefix": "/portfolio/static/media/menlo-regular-webfont.ebfcf0b3.eot",
+    "static/media/menlo-regular-webfont.ttf": "/portfolio/static/media/menlo-regular-webfont.f4343bc8.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fb1b3dac.js",
+    "static/js/2.efbd705d.chunk.js",
+    "static/js/main.63442e3d.chunk.js"
+  ]
+}
