@@ -28,7 +28,7 @@ li {
 }
 `
 
-export const AboutParagraph = styled.p`
+export const AboutParagraph = styled.div`
 font-family: 'menloregular';
 font-size: 1.3rem;
 margin-top: 5rem;
