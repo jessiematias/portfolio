@@ -34,6 +34,10 @@ font-size: 1.3rem;
 margin-top: 5rem;
 text-align: center;
 
+div {
+    margin-top: 2rem;
+}
+
 a {
     color: ${colors.red};
 }
