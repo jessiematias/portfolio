@@ -16,6 +16,7 @@ const AboutSection = () => (
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>SASS</li>
+                <li>Gulp</li>
                 </div>
 
             <div>
