@@ -8,7 +8,7 @@ color: ${colors.grey};
 margin-bottom: 2rem;
 font-weight: 400;
 @media only screen and (max-width: 600px) {
-    font-size: 4rem;
+    font-size: 2rem;
 } 
 ` 
 
@@ -26,6 +26,13 @@ li {
     display: inline-block;
     margin: 5px;
 }
+
+@media only screen and (max-width: 375px) {
+   li {
+       font-size: 1.2rem;
+   }
+} 
+
 `
 
 export const AboutParagraph = styled.div`
@@ -45,6 +52,7 @@ a {
 @media only screen and (max-width: 600px) {
     font-size: 1.2rem;
     margin-top: 1rem; 
+    text-align: left;
 } 
 `
 
@@ -54,10 +62,16 @@ grid-gap: 10rem;
 grid-template-columns: 50% 50%;
 margin: 0 4.5rem;
 height: 80vh;
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     grid-template-columns: none;
     grid-gap: 0;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 60% 50%;
+} 
+
+@media only screen and (max-width: 340px) {
+    grid-template-columns: none;
+    grid-gap: 0;
+    grid-template-rows: 80% 50%;
 } 
 
 `

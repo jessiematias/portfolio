@@ -23,6 +23,7 @@ const AboutSection = () => (
                 <li>JavaScript</li>
                 <li>React</li>
                 <li>Redux</li>
+                <li>Jest</li>
                 </div>
 
             <div>
