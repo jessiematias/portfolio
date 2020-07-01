@@ -9,6 +9,14 @@ const ITEMS = [
     },
     {
         id: '2',
+        title: "Hacker News clone",
+        description: "Updated and modernized version of Hacker News using Hacker New's API. Navigation to newest, trending, jobs, and show stories. Each story contains a link directing to the source, username, number of comments and how long ago it was posted. Unix time code is converted to readable time. Infinite scroll with the ability to go back up with a click on the up arrow. Light and dark mode is handled with styled components' theme provider. The theme selection is saved with JavaScript's local storage. Mobile responsive.",
+        technologies: "SASS, JavaScript",
+        liveURL: "https://jessiematias.github.io/hacker-news/#/",
+        codeURL: "https://github.com/jessiematias/hacker-news/tree/master"
+    },
+    {
+        id: '3',
         title: "Coronavirus Chart",
         description: "Coronavirus chart created with Charts.js. Homepage chart directs user to global data and a dropdown menu allows the display of a different country's data.",
         technologies: "React Hooks, APIs, Axios",
@@ -16,7 +24,7 @@ const ITEMS = [
         codeURL: "https://github.com/jessiematias/covid-data/tree/master"
     },
     {
-        id: '3',
+        id: '4',
         title: "Sign-up page",
         description: "Sign-up page with email and password authentication through Vanilla JavaScript. Waves animation created with CSS's @keyframe",
         technologies: "SASS, JavaScript",
