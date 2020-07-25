@@ -5,7 +5,7 @@ const Title = () => {
     return (
         <>
         <Name>JESSIE MATIAS
-        <NameSubtitle>Front End Developer. Now available for you.</NameSubtitle>
+        <NameSubtitle>Front End Web Developer.</NameSubtitle>
         </Name>
         
         </>
