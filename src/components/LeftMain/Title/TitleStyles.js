@@ -9,7 +9,7 @@ margin: auto 2rem;
 font-style: italic;
 position: relative;
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     font-size: 3.5rem;
     margin-top: 3rem;
 } 
@@ -23,10 +23,20 @@ font-weight: 400;
 font-style: normal;
 top: 85%;
 left: 0;
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 1100px) {
+    margin-top: 1.5rem;
+}
+
+@media only screen and (max-width: 800px) {
+    font-size: 1.4rem;
+    position: inherit;
+    margin: 2rem;
+} 
+@media only screen and (max-width: 700px) {
     font-size: 1.2rem;
     position: inherit;
-    margin: .5rem;
+    margin: 2rem;
 } 
 ` 
 

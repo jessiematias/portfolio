@@ -5,7 +5,7 @@ import ITEMS from '../../../constants';
 
 class Accordion extends Component {
     state = { 
-        settings: [{ id: "1", open: false }, { id: "2", open: false }, { id: "3", open: false }, { id: "4", open: false }] 
+        settings: [{ id: "1", open: false }, { id: "2", open: false }, { id: "3", open: false }, { id: "4", open: false }, { id: "5", open: false }] 
      }
 
     handleClick = id => {
@@ -22,7 +22,7 @@ class Accordion extends Component {
         const { settings } = this.state;
         return (
             <>
-                {ITEMS.map(item =>
+                {ITEMS.map(item =>              
                     (
                         <AccordionContainerStyled key={item.id}>
                             <AccordionItemTitle  onClick={() => this.handleClick(item.id)}>
