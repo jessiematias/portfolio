@@ -4,10 +4,10 @@ import Accordion from '../Accordion/Accordion';
 
 const ItemsContainer = () => {
   return (
-      <div> 
-    <ItemsContainerTitle />
-    <Accordion />
-     </div>
+    <div>
+      <ItemsContainerTitle />
+      <Accordion />
+    </div>
   )
 }
 

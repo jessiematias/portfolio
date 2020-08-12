@@ -4,9 +4,9 @@ import constants from '../../../constants';
 
 const MiddleRow = () => {
   return (
-      <MiddleParagraph>
-         <ItemsCount>{constants.length}</ItemsCount> Items in the library
-      </MiddleParagraph>
+    <MiddleParagraph>
+      <ItemsCount>{constants.length}</ItemsCount> Items in the library
+    </MiddleParagraph>
   )
 }
 

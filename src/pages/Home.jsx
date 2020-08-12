@@ -1,12 +1,12 @@
-import React from 'react'
-import Main from '../components/Main/Main'
+import React from 'react';
+import Main from '../components/Main/Main';
 
-const Home = (params) => {
+const Home = params => {
   return (
-      <>
-    <Main />
+    <>
+      <Main />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

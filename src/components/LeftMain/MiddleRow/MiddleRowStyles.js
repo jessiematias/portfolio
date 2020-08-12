@@ -6,10 +6,9 @@ font-family: 'menloregular';
 color: ${colors.grey};
 font-size: 1.4rem;
 margin: 0 auto 0 2rem;
-
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     font-size: 1.2rem;
-    margin: 3rem auto;
+    margin: 0 0 1rem 0;
 } 
 `
 export const ItemsCount = styled.span`

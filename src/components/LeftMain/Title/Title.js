@@ -4,10 +4,11 @@ import { Name, NameSubtitle } from './TitleStyles';
 const Title = () => {
     return (
         <>
-        <Name>JESSIE MATIAS
-        <NameSubtitle>Front End Web Developer.</NameSubtitle>
-        </Name>
-        
+            <Name>
+                JESSIE MATIAS
+            <NameSubtitle>Freelance Web Developer.</NameSubtitle>
+            </Name>
+          
         </>
     )
 }

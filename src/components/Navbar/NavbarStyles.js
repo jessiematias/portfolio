@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import  Logo  from './../../logo.svg'
+import Logo from './../../logo.svg'
 
 export const Gridcontainer = styled.div`
 display: grid;

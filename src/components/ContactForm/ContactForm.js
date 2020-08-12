@@ -129,9 +129,9 @@ const ContactForm = () => {
                               
                             </p>
                         )} */}
-                         { serverState && serverState.ok && serverState.msg && (
-              <Thanks>{ serverState.msg }</Thanks>
-         )}
+                        {serverState && serverState.ok && serverState.msg && (
+                            <Thanks>{serverState.msg}</Thanks>
+                        )}
                     </Form>
                 )}
             </Formik>

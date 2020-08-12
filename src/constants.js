@@ -7,7 +7,7 @@ const ITEMS = [
         liveURL: "https://jessiematias.github.io/plantco-site/#/",
         codeURL: "https://github.com/jessiematias/plantco-site/tree/master"
     },
-    { 
+    {
         id: '2',
         title: "Minesweeper",
         description: "A recreation of the Window's Minesweeper game in Vanilla JavaScript and styled with SCSS using the BEM convention. Gulp is used to compile SCSS to CSS. Squares are shuffled using the Fisher–Yates shuffle algorithm. The top left displays the number of flags remaining and the top right displays the timer. The game will programmatically clear other empty squares nearby using recursion.",
@@ -22,7 +22,7 @@ const ITEMS = [
         technologies: "React, CSS in JS, API",
         liveURL: "https://jessiematias.github.io/hacker-news/#/",
         codeURL: "https://github.com/jessiematias/hacker-news/tree/master"
-    }, 
+    },
 ]
 
 export default ITEMS

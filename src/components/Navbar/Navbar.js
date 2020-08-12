@@ -5,16 +5,16 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => (
   <>
-<Gridcontainer>
- <LogoContainer>
- <NavLink exact to='/'>
-   <LogoImg/>
-   </NavLink>
-   </LogoContainer>
-  <div/>
-<NavItemsContainer />
-</Gridcontainer>
-</>
+    <Gridcontainer>
+      <LogoContainer>
+        <NavLink exact to='/'>
+          <LogoImg />
+        </NavLink>
+      </LogoContainer>
+      <div />
+      <NavItemsContainer />
+    </Gridcontainer>
+  </>
 )
 
 export default Navbar

@@ -16,18 +16,18 @@ class Hamburger extends Component {
         this.setState({ menuOpen: false })
     }
 
-  updateDimensions = () => {
-    if(window.innerWidth > 600) {
-        this.setState({ HamburgerVisibility: true })
-      } else {
-        this.setState({ HamburgerVisibility: false })
-      }
-  }
+    updateDimensions = () => {
+        if (window.innerWidth > 600) {
+            this.setState({ HamburgerVisibility: true })
+        } else {
+            this.setState({ HamburgerVisibility: false })
+        }
+    }
 
-  componentDidMount() {
-    this.updateDimensions()
-    window.addEventListener("resize", this.updateDimensions)
-  }
+    componentDidMount() {
+        this.updateDimensions()
+        window.addEventListener("resize", this.updateDimensions)
+    }
 
     render(props) {
 
@@ -41,7 +41,7 @@ class Hamburger extends Component {
                 top: '1.4rem'
             },
             bmBurgerBars: {
-                background: '#000'
+                background: '#212121'
             },
             bmCrossButton: {
                 height: '24px',
@@ -55,10 +55,11 @@ class Hamburger extends Component {
                 height: '100%'
             },
             bmMenu: {
-                background: '#000',
+                background: '#212121',
                 padding: '2.5em 1.5em 0',
                 fontSize: '2rem',
-                textAlign: 'center'
+                textAlign: 'center',
+                width: '100%',
             },
             bmItemList: {
                 padding: '4rem 2rem'

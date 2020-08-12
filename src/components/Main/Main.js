@@ -5,10 +5,10 @@ import RightMain from '../RightMain/RightMain';
 
 const Main = () => {
     return (
-    <MainGrid>
-        <LeftMain />
-        <RightMain />
-    </MainGrid>
+        <MainGrid>
+            <LeftMain />
+            <RightMain />
+        </MainGrid>
     )
 }
 

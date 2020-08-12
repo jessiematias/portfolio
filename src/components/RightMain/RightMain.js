@@ -3,7 +3,7 @@ import { RightGrid } from './RightMainStyles';
 
 const RightMain = () => {
   return (
-    <RightGrid /> 
+    <RightGrid />
   )
 }
 
